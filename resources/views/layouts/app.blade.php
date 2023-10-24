@@ -13,6 +13,7 @@
     <!-- Theme style -->
     <link rel="stylesheet" href="{{ asset('css/adminlte.min.css') }}">
     @yield('styles')
+    @vite('resources/css/app.css')
 </head>
 <body class="hold-transition sidebar-mini">
 <div class="wrapper">
